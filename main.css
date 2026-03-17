@@ -350,6 +350,35 @@ input[type=checkbox]:checked ~ .menu-label:after {
 
 }
 
+/* Instructor groups layout (Lectures / Labs) */
+.instructors-groups {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.instructor-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instructor-group-label {
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 6px;
+  width: 100%;
+}
+
 /* General container styling */
 .instructors {
   display: flex; /* Align columns side by side */
@@ -365,8 +394,7 @@ input[type=checkbox]:checked ~ .menu-label:after {
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center items horizontally */
   text-align: center; /* Center text within the column */
-  width: 45%; /* Adjust width to fit two columns */
-  max-width: 300px; /* Optional: Limit the maximum width */
+  width: 230px;
   padding: 15px; /* Add padding for spacing */
 }
 
@@ -520,9 +548,9 @@ input[type=checkbox]:checked ~ .menu-label:after {
   width: 80%;
   max-width: 600px;
   margin-bottom: 15px;
-  display: flex; /* Enables flexbox */
-  justify-content: space-between; /* Pushes items apart */
-  align-items: center; /* Aligns vertically */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .lab-title {
