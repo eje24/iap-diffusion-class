@@ -14,7 +14,7 @@
 
   <div id="nav-bg">
     <nav id="top-nav" style="flex-grow: 0; display:flex; justify-content:space-between; align-items:center;">
-      
+
       <!-- LEFT SIDE — MAIN NAVIGATION -->
       <ul id="navigation-list" class="pull-left navbar-ul" style="list-style-type:none !important; display:flex; gap:20px; margin-left:0;">
         <li><a href="#notes">Notes</a></li>
@@ -43,91 +43,120 @@
 
   <div id="content">
 
-
   <div id="content">
     <!-- <h1 class="title">Flow Matching and Diffusion Models (2026)</h1> -->
-    <p>Diffusion and flow models are the cutting edge generative AI methods for images, videos, and many other data types. This course offers a comprehensive introduction for students and researchers seeking a deeper understanding of these models. Lectures will teach the core mathematical concepts necessary to understand diffusion models, including stochastic differential equations and the Fokker-Planck equation, and will provide a step-by-step explanation of the components of each model. Labs will accompany each lecture allowing students to gain practical, hands-on experience with the concepts learned in a guided manner. At the end of the class, students will have built a latent diffusion model from scratch – and along the way, will have gained hands-on experience with the mathematical toolbox of stochastic analysis that is useful in many other fields. This course is ideal for those who want to explore the frontiers of generative AI through a mix of theory and practice. We recommend some prior experience with probability theory and deep learning..</p>
+    <p>Diffusion and flow models are the cutting edge generative AI methods for images, videos, and many other data types. This course offers a comprehensive introduction for students and researchers seeking a deeper understanding of these models. Lectures will teach the core mathematical concepts necessary to understand diffusion models, including stochastic differential equations and the Fokker-Planck equation, and will provide a step-by-step explanation of the components of each model. Labs will accompany each lecture allowing students to gain practical, hands-on experience with the concepts learned in a guided manner. At the end of the class, students will have built a latent diffusion model from scratch – and along the way, will have gained hands-on experience with the mathematical toolbox of stochastic analysis that is useful in many other fields. This course is ideal for those who want to explore the frontiers of generative AI through a mix of theory and practice. We recommend some prior experience with probability theory and deep learning.</p>
   </div>
 
 <h1 id="notes">Course Notes</h1>
   <p>
   The course notes serve as the backbone of the course and provide a self-contained explanation of all material in the class. We strongly recommend using them.  You can view the notes by clicking the button below:
-  <div style="display: flex; justify-content: center;"> 
+  <div style="display: flex; justify-content: center;">
   <a href="../2026/docs/lecture_notes.pdf" target="_blank"
      style="display:inline-block;padding:0.3em 1em;
             background-color:#ff9500;color:#020202;
-            text-decoration:none;border-radius:4px;"> 
+            text-decoration:none;border-radius:4px;">
     View the course notes here!
   </a>
   </div>
   </p>
 
-<h1 id="lectures">Lecture Schedule</h1>
+<p>
+  <h3>To cite this course, please use:</h3>
+  <pre>
+@misc{flowsanddiffusions2026,
+  author       = {Peter Holderrieth and Ezra Erives},
+  title        = {Introduction to Flow Matching and Diffusion Models},
+  year         = {2026},
+  url          = {https://diffusion.csail.mit.edu/}
+}
+  </pre>
+</p>
 
-<p style="text-align: center; font-style: italic;">Recordings will be made available on March 16, 2026 for people outside MIT.</p>
+<h1 id="lectures">Lectures</h1>
 
-<table class="lecture-table">
-  <thead>
-    <tr>
-      <th>Lecture</th>
-      <th>Date & Time</th>
-      <th>Room</th>
-      <th>Topics</th>
-      <th>Slides</th>
-      <th>Recording</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>Tue, Jan 20 — 11:00–12:30</td>
-      <td>E25-111</td>
-      <td>Flow and Diffusion Models</td>
-      <td><a href="../2026/docs/20260120_Lecture_01.pdf">Lec 01</a></td>
-      <td><a href="https://canvas.mit.edu/courses/35790/external_tools/594" target="_blank">Link</a></td>
-    </tr>
+<table class="schedule-table">
+  <tr>
+    <th>Lecture</th>
+    <th>Topic</th>
+    <th>Slides</th>
+    <th>Recording</th>
+  </tr>
 
-    <tr>
-      <td>02</td>
-      <td>Thu, Jan 22 — 11:00–12:30</td>
-      <td>E25-111</td>
-      <td>Flow Matching</td>
-      <td><a href="../2026/docs/20260122_Lecture_02.pdf">Lec 02</a></td>
-      <td><a href="https://canvas.mit.edu/courses/35790/external_tools/594" target="_blank">Link</a></td>
-    </tr>
+  <tr>
+    <td>1</td>
+    <td>
+      <span class="lecture-title">Flow and Diffusion Models</span>
+      <ul class="lecture-points">
+        <li>Introduction to generative models</li>
+        <li>Ordinary and stochastic differential equations</li>
+        <li>Sampling from flow and diffusion models</li>
+      </ul>
+    </td>
+    <td><a href="../2026/docs/20260120_Lecture_01.pdf" target="_blank">[slides 1]</a></td>
+    <td><a href="#" class="disabled-link">Coming soon</a></td>
+  </tr>
 
-    <tr>
-      <td>03</td>
-      <td>Fri, Jan 23 — 11:00–12:30</td>
-      <td>E25-111</td>
-      <td>Score Matching, Guidance</td>
-      <td><a href="../2026/docs/20260123_Lecture_03.pdf">Lec 03</a></td>
-      <td><a href="https://canvas.mit.edu/courses/35790/external_tools/594" target="_blank">Link</a></td>
-    </tr>
+  <tr>
+    <td>2</td>
+    <td>
+      <span class="lecture-title">Flow Matching</span>
+      <ul class="lecture-points">
+        <li>Conditional and marginal probability paths</li>
+        <li>Continuity and Fokker-Planck equations</li>
+        <li>Flow matching training objective</li>
+      </ul>
+    </td>
+    <td><a href="../2026/docs/20260122_Lecture_02.pdf" target="_blank">[slides 2]</a></td>
+    <td><a href="#" class="disabled-link">Coming soon</a></td>
+  </tr>
 
-    <tr>
-      <td>04</td>
-      <td>Wed, Jan 28 — 11:00–12:30</td>
-      <td>E25-111</td>
-      <td>Latent Spaces, Neural Network architectures</td>
-      <td><a href="../2026/docs/20260128_Lecture_04_edited.pdf">Lec 04</a></td>
-      <td><a href="https://canvas.mit.edu/courses/35790/external_tools/594" target="_blank">Link</a></td>
-    </tr>
+  <tr>
+    <td>3</td>
+    <td>
+      <span class="lecture-title">Score Matching and Guidance</span>
+      <ul class="lecture-points">
+        <li>Score function and score matching</li>
+        <li>Classifier-free and classifier guidance</li>
+        <li>Conditional generation</li>
+      </ul>
+    </td>
+    <td><a href="../2026/docs/20260123_Lecture_03.pdf" target="_blank">[slides 3]</a></td>
+    <td><a href="#" class="disabled-link">Coming soon</a></td>
+  </tr>
 
-    <tr>
-      <td>05</td>
-      <td>Fri, Jan 30 — 12:30-2:00</td>
-      <td>E25-111</td>
-      <td>Discrete Diffusion Models</td>
-      <td><a href="../2026/docs/20260130_Lecture_05.pdf">Lec 05</a></td>
-      <td><a href="https://canvas.mit.edu/courses/35790/external_tools/594" target="_blank">Link</a></td>
-    </tr>
-  </tbody>
+  <tr>
+    <td>4</td>
+    <td>
+      <span class="lecture-title">Latent Spaces and Neural Network Architectures</span>
+      <ul class="lecture-points">
+        <li>Variational autoencoders and latent spaces</li>
+        <li>Transformer and U-Net architectures</li>
+        <li>Latent diffusion models</li>
+      </ul>
+    </td>
+    <td><a href="../2026/docs/20260128_Lecture_04_edited.pdf" target="_blank">[slides 4]</a></td>
+    <td><a href="#" class="disabled-link">Coming soon</a></td>
+  </tr>
+
+  <tr>
+    <td>5</td>
+    <td>
+      <span class="lecture-title">Discrete Diffusion Models</span>
+      <ul class="lecture-points">
+        <li>Discrete data and tokenization</li>
+        <li>Masked diffusion models</li>
+        <li>Applications to language and biology</li>
+      </ul>
+    </td>
+    <td><a href="../2026/docs/20260130_Lecture_05.pdf" target="_blank">[slides 5]</a></td>
+    <td><a href="#" class="disabled-link">Coming soon</a></td>
+  </tr>
 </table>
 
 <style>
 /* LECTURE TABLE — scoped styles */
-.lecture-table {
+.schedule-table {
   width: 100%;
   border-collapse: collapse;
   margin: 24px 0;
@@ -136,7 +165,7 @@
   background: white;
 }
 
-.lecture-table th {
+.schedule-table th {
   padding: 10px 14px;
   background: #f3f3f3;
   border-bottom: 2px solid #ddd;
@@ -145,61 +174,75 @@
   color: #333;
 }
 
-.lecture-table td {
+.schedule-table td {
   padding: 10px 14px;
   border-bottom: 1px solid #eee;
 }
 
-.lecture-table tr:nth-child(even) td {
+.schedule-table tr:nth-child(even) td {
   background: #fafafa;
 }
 
-.lecture-table a.disabled-link {
+.schedule-table a.disabled-link {
   color: #888;
   text-decoration: none;
   pointer-events: none;
 }
-</style>
 
+.lecture-title {
+  font-weight: 600;
+}
+
+.lecture-points {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+  font-size: 14px;
+  color: #444;
+}
+</style>
 
 
 <h1 id="labs">Labs</h1>
 
-Grading is P/F and based on class participation and completion of labs. There will be 3 labs given as homework which culminate in a codebase training a flow matching model. The labs will guide you through building this model from scratch step-by-step. 
-To support you in completing the labs, there will be office hours where you can ask questions and get help. The office hours schedule is as follows:
+There are 3 <b>labs</b> given as exercises accompanying the class to give you <b>hands-on practical experience</b>. The labs will guide you through building a flow matching and diffusion model from scratch step-by-step. To do the exercises, perform the following steps:
+<ol>
+  <li>Click on the lab link below to view the lab instructions.</li>
+  <li>Download the <code>.ipynb</code> notebook from GitHub and open it in your favorite Jupyter notebook environment (one good choice is Google Colab).</li>
+  <li>Follow the instructions in the lab to complete the exercises.</li>
+  <li>Once all questions have been completed, export your notebook to a PDF and submit to Gradescope via Canvas. Please do not clear cell output, as this makes it harder to grade!</li>
+</ol>
 
-<table class="schedule-table">
-  <tr>
-    <th>Office Hour</th>
-    <th>Date & Time</th>
-    <th>Room</th>
-    <th>Associated Lab</th>
-  </tr>
+<div class="labs-container">
+  <div class="lab-card">
+    <h3>Lab 1: Working with SDEs</h3>
+    <a href="./labs/lab_one.html" class="colab-button" target="_blank">
+      View Lab 1
+    </a>
+  </div>
 
-  <tr>
-    <td>01</td>
-    <td>Wed, Jan 21 — 11:00–12:30</td>
-    <td>36-144</td>
-    <td><a href="./labs/lab_one.html" target="_blank">Lab 1</a></td>
-  </tr>
+  <div class="lab-card">
+    <h3>Lab 2: Flow Matching and Score Matching</h3>
+    <a href="./labs/lab_two.html" class="colab-button" target="_blank">
+      View Lab 2
+    </a>
+  </div>
 
-  <tr>
-    <td>02</td>
-    <td>Fri, Jan 23 — 15:00–16:30</td>
-    <td>36-156</td>
-    <td><a href="./labs/lab_two.html" target="_blank">Lab 2</a></td>
-  </tr>
+  <div class="lab-card">
+    <h3>Lab 3: Conditional Image Generation</h3>
+    <a href="./labs/lab_three.html" class="colab-button" target="_blank">
+      View Lab 3
+    </a>
+  </div>
+</div>
 
-  <tr>
-    <td>03</td>
-    <td>Tue, Jan 27 — 11:00–12:30</td>
-    <td>36-144</td>
-    <td><a href="./labs/lab_three.html" target="_blank">Lab 3</a></td>
-  </tr>
-</table>
+<p style="text-align: left; margin-top: 20px;">
+  <strong>Stuck?</strong> Solutions can be found
+  <a href="https://github.com/eje24/iap-diffusion-labs/tree/2026">here</a>.
+</p>
 
 
 <h1 id="instructors">Instructors</h1>
+<p>This class was co-taught by <a href="https://www.peterholderrieth.com/">Peter</a> and <a href="https://ronsh9.github.io/">Ron</a>. We are fortunate to have <a href="https://people.csail.mit.edu/tommi/">Tommi Jaakkola</a> as our sponsor and advisor.</p>
 
 <div class="instructors">
   <div class="instructor">
@@ -216,9 +259,26 @@ To support you in completing the labs, there will be office hours where you can 
 
 <p><strong>Prerequisites:</strong> Linear algebra, multivariate calculus, and basic probability theory. Students should be familiar with Python and have some experience with PyTorch.</p>
 
-<p><strong>Questions?</strong> Email either <a href="mailto:phold@mit.edu">Peter (phold@mit.edu)</a> or <a href="mailto:ronsh@mit.edu">Ron (ronsh@mit.edu)</a>!</p>
 
-<p><strong>Class of 2025:</strong> To view a previous iteration of the class, click on the 2025 tab. Yet, we will have new content and a new structure this year.</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+We would like to thank the following individuals and organizations:
+<ul>
+  <li>Professor <a href="https://people.csail.mit.edu/tommi/">Tommi Jaakkola</a></li>
+  <li>Lisa Bella, Ellen Reid, and the team at <a href="https://www.eecs.mit.edu/">MIT EECS</a></li>
+  <li>Christian Fiedler, Tim Griesbach, Benedikt Geiger, and Albrecht Holderrieth</li>
+  <li>Elaine Mello (MIT Open Learning)</li>
+  <li>Ashay Athalye (Students for Open and Universal Learning)</li>
+  <li>Cameron Diao, Tally Portnoi, Andi Qu, Roger Trullo, Ádám Burián, Zewen Yang, and many others</li>
+  <li><a href="https://github.com/missing-semester/missing-semester">The Missing Semester</a></li>
+  <li>Participants in MIT 6.S184 (IAP 2026)</li>
+</ul>
+
+<hr />
+
+<div class="small center">
+<p><a href="https://github.com/eje24/iap-diffusion-class/">Source code</a>.</p>
+<p>Licensed under CC BY-NC-SA.</p>
+</div>
 
 </body>
 
